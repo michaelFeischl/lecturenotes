@@ -10,4 +10,4 @@
 # FEM
 
 - <a href="FEM_VO.pdf"> FEM 1 (stationary problems) </a>
-- <a href="highdim.pdf"> FEM 2 (Eigenvalues, instationary problems, probabilistic methods) </a>
+- <a href="FEM2.pdf"> FEM 2 (Eigenvalues, instationary problems, probabilistic methods) </a>
