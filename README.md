@@ -13,11 +13,11 @@
 - <a href="FEM2.pdf"> FEM 2 (Eigenvalues, instationary problems, probabilistic methods) </a>
 
 # Numerik auf Quantencomputern
-- <a href="downloads/First_Lecture.pdf">Slides from first lecture</a>
-- <a href="downloads/QNumerics_part1.pdf">Part 1: Basics of quantum computers</a>
-- <a href="downloads/QNumerics_part2.pdf">Part 2: Classical quantum algorithms</a> 
-- <a href="downloads/HHL.pdf">Part 3: Solving linear systems</a> 
-- <a href="downloads/odes.pdf">Part 4: Solving linear differential equations</a>
+- <a href="First_Lecture.pdf">Slides from first lecture</a>
+- <a href="QNumerics_part1.pdf">Part 1: Basics of quantum computers</a>
+- <a href="QNumerics_part2.pdf">Part 2: Classical quantum algorithms</a> 
+- <a href="HHL.pdf">Part 3: Solving linear systems</a> 
+- <a href="odes.pdf">Part 4: Solving linear differential equations</a>
 ## Examples in IBM Quantum Composer
 - <a href="https://quantum-computing.ibm.com/composer/files/new?initial=N4IgdghgtgpiBcIASSAyAmEAaEBHCAzlAiAPIAKAogHICKAggMoCyABOgHQAMA3ADpgAlmADGAGwCuAExis%2BeGGMEAjAIwdhI%2BfzADcAJxgBzVrgDaAFgC6OkYZMizAVhsCBAD1NmAzK7DKIfX1BGH0vLj8AoJCw81VIwODQr3QE6OTzXx0ACy94nJS0pNizCJ0o4ryimMLyxJrMvxEJAAoAB0FWAHp2LFYAWg7u3tYhnvQ%2B71YAKlHOnosASiq%2BxttWjr7N1i4%2BrmXzVNWfaozS05L8gQqGs1S69JKsgVzDpraWwcEu9AOzeOO9xeVQelXMZWu9TOV38UJKQNhjy8z1E%2BgAnu1BH8AeEmujMcNvH8jrjQbcIYiwf8LrVIUi1sC4u9MT9iVZjjDXncaeCedSyWcETczijmpitoI9ns2cdRRt5iMxiMvsMJgMprMlUsVsi%2BRThZc%2BUK4bqCkyzdydAIuj0AAIiAD2kigYAIrFKWFUnu9XomE28WADQawFiwTiwADZI9GowB2LAADiwAE5PbtVOnM56vaoJqoA-nPQWC6HVOHVFHVPGq57q9Wk6pU%2Bhds2sK32774tgQDICHZBG0AC6CB1gEggAC%2BQA"> Solving a 2x2 system (see lecture notes) </a> 
 - <a href="https://quantum-computing.ibm.com/composer/files/new?initial=N4IgdghgtgpiBcIDiAnA9gNxigBAFRgGcAXEAGhAEcJCoEQB5ABQFEA5ARQEEBlAWRwAmAHQAGANwAdMAEswAYwA2AVwAmMHJKoxFMgEYBGYXPlapYAOYRiG5QH1COCGRx6X8l6pzBpOHAAsncz9AvWCAnHlwwNVwgA8g3xwEsKSEqLScWKSY8PkAZgTnV3dPaKz4xLA-FMqM6uSKnKqQ13L61uywAF9pKxscewAhJxc3SM8XGBcAM28k%2BQAWIrHSrKm8hOmcGbzl0ZKJ9ZwYc16wShQYCxxKAG0ANgBdc3krm-k7xZfpaSvCGDEW53UQ-MD-QHAgxgiFA%2B6CGFESH3fKIgFwr5o5F3ACsYMC91B5gJd2hxOBCPJKLBCXueKpuLBS1pIKeLnu0PZdwRXNRXO%2BrxZ3y59OkzOBoK5nIpbOBfOBAukJKJSqh%2BJlDNR5hZKrALLJ0hZlMNcvV1NehQlso51u5tq1qvNJsJNLV2o1zruDrAyrNpL9xp9pvMwytUttPNN-NtorA9kcLvDXMjTrjdhGibVyfttuFwNj8bDWZlvLBsBoyiuVpwAFoAHyRVnmcuESsaG21hufA1gFttmWdxuBvtV6mDz7e6QAeinOAAAvI0CooGBHCCyKIN1vN5uDGQ9wf92RBGR8mRFmQcWQHtfbzeAOxkR-PsgADjIAE597uD7-9weTwMQDgP3M8DAvAwrwMG8DEfAx3wML9BFBcgQHUQg3hkAAHYgZDQMB6BAbogA">Grover Algorithm with $F(x) = x_0x_1x_2x_3$</a> (requires free account)
