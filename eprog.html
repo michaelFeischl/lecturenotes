@@ -8407,7 +8407,14 @@ y = 11
 </div>
 <div class="jp-InputArea jp-Cell-inputArea"><div class="jp-InputPrompt jp-InputArea-prompt">
 </div><div class="jp-RenderedHTMLCommon jp-RenderedMarkdown jp-MarkdownOutput" data-mime-type="text/markdown">
-<p><strong>Sonderzeichen</strong>: Will man ein Anführungszeichen oder einen Backslash am Bildschirm ausgeben, muss man diesen mit einem Backslash maskieren. Beispiel: <code>\"</code> für ein Anführungszeichen und <code>\\</code> für einen Backslash. Das selbe gilt für <code>{}</code>. Anstelle der Anführungszeichen, kann man auch einfache Anführungszeichen verwenden, z.B. <code>print('Hello "World"')</code>.</p>
+<p><strong>Sonderzeichen</strong>: Will man ein Anführungszeichen oder einen Backslash am Bildschirm ausgeben, muss man diesen mit einem Backslash maskieren. Beispiel: <code>\"</code> für ein Anführungszeichen und <code>\\</code> für einen Backslash.</p>
+<ul>
+<li><strong>Achtung</strong>: Will man in <code>f</code>-Strings geschungene Klammern in <code>{</code> oder <code>}</code> ausgeben, muss man doppelte Klammern verwenden: <code>{{</code> oder <code>}}</code>.<ul>
+<li>In normalen Strings (ohne <code>f</code>) ist das nicht notwendig.</li>
+</ul>
+</li>
+<li>Anstelle der Anführungszeichen, kann man auch einfache Anführungszeichen verwenden, z.B. <code>print('Hello "World"')</code>.</li>
+</ul>
 </div>
 </div>
 </div>
@@ -8416,13 +8423,14 @@ y = 11
 <div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
 </div>
 <div class="jp-InputArea jp-Cell-inputArea">
-<div class="jp-InputPrompt jp-InputArea-prompt">In [40]:</div>
+<div class="jp-InputPrompt jp-InputArea-prompt">In [9]:</div>
 <div class="jp-CodeMirrorEditor jp-Editor jp-InputArea-editor" data-type="inline">
 <div class="cm-editor cm-s-jupyter">
 <div class="highlight hl-ipython3"><pre><span></span><span class="n">pi</span> <span class="o">=</span> <span class="mf">3.14159</span>
 <span class="nb">print</span><span class="p">(</span><span class="sa">f</span><span class="s2">"</span><span class="si">{</span><span class="n">pi</span><span class="si">:</span><span class="s2">.2f</span><span class="si">}</span><span class="s2"> wird auch als </span><span class="se">\"</span><span class="s2">Kreiszahl</span><span class="se">\"</span><span class="s2"> bezeichnet."</span><span class="p">)</span>
 <span class="nb">print</span><span class="p">(</span><span class="sa">f</span><span class="s1">'</span><span class="si">{</span><span class="n">pi</span><span class="si">:</span><span class="s1">.2f</span><span class="si">}</span><span class="s1"> wird auch als "Kreiszahl" bezeichnet.'</span><span class="p">)</span>
 <span class="nb">print</span><span class="p">(</span><span class="s2">"Ich fühle mich </span><span class="se">\\</span><span class="s2">o/"</span><span class="p">)</span>
+<span class="nb">print</span><span class="p">(</span><span class="sa">f</span><span class="s2">"Die Menge der geraden Zahlen ist </span><span class="se">{{</span><span class="s2">2,4,6,8,...</span><span class="se">}}</span><span class="s2"> und pi ist ungefähr </span><span class="si">{</span><span class="n">pi</span><span class="si">:</span><span class="s2">.2f</span><span class="si">}</span><span class="s2">."</span><span class="p">)</span>
 </pre></div>
 </div>
 </div>
@@ -8438,6 +8446,7 @@ y = 11
 <pre>3.14 wird auch als "Kreiszahl" bezeichnet.
 3.14 wird auch als "Kreiszahl" bezeichnet.
 Ich fühle mich \o/
+Die Menge der geraden Zahlen ist {2,4,6,8,...} und pi ist ungefähr 3.14.
 </pre>
 </div>
 </div>
