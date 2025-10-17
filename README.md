@@ -1,5 +1,5 @@
 # EPROG
-- <a href="eprog.html"> Python Skriptum (html) </a>
+- <a href="https://michaelfeischl.github.io/EPROG_2025/intro.html"> Python Skriptum (html) </a>
 - <a href="eprog_c.html"> C Skriptum (html) </a>
 - <a href="eprog_cpp.html"> C++ Skriptum (html) </a>
 
